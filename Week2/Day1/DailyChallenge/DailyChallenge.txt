@@ -1,0 +1,25 @@
+Étape 1 : Le cas choisi
+Sujet : L'optimisation des tournées de livraison d'UPS via l'analyse de données massives.
+
+Contexte : Avec l'explosion du commerce électronique, la gestion du "dernier kilomètre" (la livraison finale au client) est devenue le segment le plus coûteux et le plus complexe de la chaîne logistique. Un seul kilomètre inutile par chauffeur et par jour coûte des millions de dollars à l'échelle de l'entreprise.
+
+Étape 2 : Le rôle de l'analyse des données
+Pour résoudre ce casse-tête, UPS ne se contente pas d'un simple GPS. L'entreprise collecte et traite un volume gigantesque de données.
+
+Les données analysées : Les coordonnées géographiques des clients, l'historique des fenêtres horaires de livraison, les données de trafic en temps réel, mais aussi les données télématiques des camions eux-mêmes (vitesse, arrêts, marche arrière, consommation de carburant).
+
+Les méthodes utilisées : Des algorithmes d'optimisation sous contraintes (recherche opérationnelle), de l'analyse prédictive pour anticiper les conditions de circulation, et du machine learning pour adapter les itinéraires au fil de la journée selon les imprévus (annulations, nouveaux colis prioritaires).
+
+Le résultat concret : L'algorithme propose au chauffeur l'itinéraire le plus efficace, en évitant au maximum de tourner à gauche face au trafic (une règle célèbre qui réduit les temps d'attente et les risques d'accidents).
+
+Étape 3 : L'impact de l'analyse (Ce qui aurait changé sans elle)
+Sans cette analyse poussée des données, la situation d'UPS serait intenable aujourd'hui :
+
+Ce qui aurait été différent : Les chauffeurs suivraient des itinéraires basés sur l'intuition ou la simple proximité géographique, ce qui conduirait à des camions bloqués dans les embouteillages, des retards massifs et une hausse exponentielle de la consommation de carburant.
+
+Résolution du problème : L'analyse des données a permis de passer d'une logistique réactive (subir le trafic) à une logistique prédictive (l'anticiper). À l'échelle mondiale, le système ORION permet à UPS d'économiser environ 160 millions de kilomètres et plusieurs dizaines de millions de litres de carburant chaque année, réduisant par la même occasion leur empreinte carbone de 100 000 tonnes métriques de CO2.
+
+Étape 4 : Conclusion et importance de la data dans la décision
+Ce cas démontre que l'analyse des données n'est plus un simple outil de reporting pour "regarder le passé", mais le moteur principal de la stratégie en temps réel.
+
+Dans le commerce moderne, la data permet de résoudre une équation à multiples inconnues : satisfaire un client toujours plus exigeant (livraison rapide et précise), garantir la rentabilité économique (baise des coûts opérationnels) et répondre aux impératifs écologiques (réduction des émissions). La donnée transforme une intuition managériale en une précision chirurgicale.

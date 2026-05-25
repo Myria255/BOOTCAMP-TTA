@@ -1,0 +1,21 @@
+class MenuManager():
+    def __init__(self, menu):
+        self.menu = [
+            {"name": "Soup", "price": 10, "spice": "B", "gluten": False},
+            {"name": "Hamburger", "price": 15, "spice": "A", "gluten": True},
+            {"name": "Salad", "price": 18, "spice": "A", "gluten": False},
+            {"name": "French Fries", "price": 5, "spice": "C", "gluten": False},
+            {"name": "Beef bourguignon", "price": 25, "spice": "B", "gluten": True}
+        ]
+    def add_item(self, name, price, spice, gluten):
+        new_item = {"name": name, "price": price, "spice": spice, "gluten": gluten}
+        self.menu.append(new_item)
+    def update_item(self, name, price, spice, gluten):
+        for item in self.menu:
+            if item["name"] == name:
+                item["price"] = price
+                item["spice"] = spice
+                item["gluten"] = gluten
+                break
+    def remove_item(self, name):
+        self.menu = [item for item in self.menu if item["name"] != name]
